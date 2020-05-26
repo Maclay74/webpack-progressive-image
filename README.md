@@ -1,4 +1,5 @@
-#Webpack Progressive Image Plugin
+# Webpack Progressive Image Plugin
+
 Converts you images to progressive formats in a plug-and-play way.
 
 
