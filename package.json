@@ -1,0 +1,59 @@
+{
+  "name": "webpack-progressive-image",
+  "version": "1.0.2",
+  "description": "Webpack plugin for progressive image formats",
+  "main": "dist/cjs.js",
+  "dependencies": {
+    "imagemin": "7.0.1",
+    "imagemin-webp": "5.1.0",
+    "loader-utils": "^2.0.0",
+    "mime-types": "^2.1.27",
+    "postcss": "^7.0.31"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.5.0",
+    "babel-preset-env": "^1.7.0",
+    "cross-env": "^5.2.0",
+    "del-cli": "^1.1.0",
+    "eslint": "^5.15.3",
+    "eslint-config-webpack": "^1.2.5",
+    "eslint-plugin-import": "^2.16.0",
+    "husky": "^1.3.1",
+    "jest": "^24.5.0",
+    "lint-staged": "^8.1.5",
+    "webpack": "^4.6.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production babel src -d dist --ignore 'src/*.test.js'",
+    "clean": "del-cli dist",
+    "lint": "eslint src",
+    "precommit": "lint-staged",
+    "test": "jest",
+    "test:coverage": "jest --collectCoverageFrom='src/**/*.js' --coverage"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "webpack",
+    "babel",
+    "plugin",
+    "webp"
+  ],
+  "author": {
+    "name": "Mike Kozlov",
+    "email": "mishakozlov74@gmail.com"
+  },
+  "license": "MIT"
+}
