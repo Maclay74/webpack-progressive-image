@@ -130,4 +130,4 @@ this very tiny checker in your `index.js`
 
 ## Support
 
-If you find any problems or bugs, please open a new [issue](https://github.com/ctaylo21/webpack-plugin-boilerplate/issues).
+If you find any problems or bugs, please open a new issue.
