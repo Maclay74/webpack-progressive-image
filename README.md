@@ -4,9 +4,9 @@ Converts you images to progressive formats in a plug-and-play way.
 
 
 ## Table of Contents
-- [Features](#features)
+- [Motivation](#motivation)
 - [Usage](#usage)
-- [Documentation](#documentation)
+- [What about css?](#css)
 - [Installation](#installation)
 - [Support](#support)
 
