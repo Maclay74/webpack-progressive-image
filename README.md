@@ -6,7 +6,7 @@ Converts you images to progressive formats in a plug-and-play way.
 ## Table of Contents
 - [Motivation](#motivation)
 - [Usage](#usage)
-- [What about css?](#what_about_css)
+- [What about css?](#what-about-css)
 - [Installation](#installation)
 - [Support](#support)
 
