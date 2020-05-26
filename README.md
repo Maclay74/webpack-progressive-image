@@ -58,12 +58,12 @@ Well, the same result we can achieve in our css by using **postcss-plugin**
 
 Let's imagine that we have following sass code with **background-image** declaration
 
-```sass
+```css
 .hero {
-	height: 700px;
-	background: {
-		image: url('./background.progressive.jpg');
-	}
+  height: 700px;
+  background: {
+    image: url('./background.progressive.jpg');
+  }
 }
 ```
 
